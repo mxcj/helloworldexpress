@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const dbConnect = () => {
-    const DB_URI = 'mongodb://35.87.97.216:27017/admin';
+    const DB_URI = 'mongodb://10.0.1.100:27017/admin';
     mongoose.connect(DB_URI,{
         user: "admin",
         pass: "Passwd123",
